@@ -1,0 +1,191 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #e9ecef;
+   // background-color: #ffffff;
+}
+
+.about-img {
+    top: 50px;
+    margin-left: -100px;
+    right: -20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 100px;
+    font-weight: 500;
+}
+
+.btn-social {
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+.btn-social:hover {
+    background-color: #f5df4e;
+}
+
+.hero-text {
+    margin-top: 150px;
+}
+
+.typed-cursor {
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.position-absolute {
+    font-weight: 700;
+}
+
+a {
+    color: #f5df4e;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #f5df4e;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #343a40;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 25px 15px;
+    color: #ffffff;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ffc107;
+}
+
+.navbar-toggler {
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+.btn-menu {
+    padding: 10px 35px;
+}
+
+.btn-yellow {
+   background-color: rgb(255, 193, 7);
+    color: #212529;
+    padding: 10px 35px;
+}
+
+.btn-yellow:hover {
+    background-color: rgb(255, 255, 255);
+   background-color: rgb(202, 50, 50);
+    color: #212529;
+}
+
+.btn-white {
+    color: #212529
+}
+
+
+
+
+.service-h4 {
+    padding-bottom: 50px;
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-box {
+    box-shadow: 0px 1px 7px rgb(245, 223, 78);
+    margin-left: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.service-box:hover {
+    box-shadow: 0px 1px 13px rgb(255, 193, 7);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h4 {
+    
+    color: #343a40;
+}
+
+.about-text {
+    padding-left: 50px;
+}
+
+.portfolio-item .portfolio-btn {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.portfolio-item:hover .portfolio-btn {
+    opacity: 0.8;
+    width: calc(100% - 20px);
+    height: calc(100% - 150px);
+    top: 70px;
+    left: 10px;
+}
+
+
+
+
+.form-control {
+    border: 2px solid #343a40;
+    border-radius: 50px;
+}
+
+.form-control:hover {
+    box-shadow: 0px 1px 13px rgb(255, 193, 7);
+}
+
+.textarea {
+    resize: none;
+}
+
+.footer {
+    line-height: 24px;
+    padding: 8px 0;
+}
+
